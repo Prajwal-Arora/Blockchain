@@ -33,7 +33,7 @@ contract Trade {
         masterChef = _masterChef;
     }
 
-    function updateMastrerChef(address _masterChef) public {
+    function updateMasterChef(address _masterChef) public {
         require(msg.sender == owner, "Only called by owner");
         masterChef = _masterChef;
     }
