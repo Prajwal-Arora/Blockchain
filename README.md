@@ -7,7 +7,7 @@
 
 ## Softwares
 ### 1. LP Monitor - Monitoring tokens incoming / outgoing from a liquidity pair.
-### 2. Transfer / Deposit Events - Extrating data from blockchain for contract events, like transfer events of any ERC-20 or Deposit events of any staking contracts.
+### 2. Data Extraction - Extrating data from blockchain for contract events, like transfer events of any ERC-20 or Deposit events of any staking contracts.
 ### 3. Link - Checks for a link (direct link, layer 1 link, layer 2 link) between 2 wallet addresses. 
 ####     Direct link = If Alice and Bob have a transacted with eachother. 
 ####                   Alice -> Bob
