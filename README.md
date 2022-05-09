@@ -11,10 +11,13 @@
 3. Link - Checks for a link (direct link, layer 1 link, layer 2 link) between 2 addresses.
 
 Direct link = If Alice and Bob have a transaction with each other.
+
 Alice -> Bob
 
 Layer 1 link = If Alice and Bob have not transacted with each other but have transacted with a common address.
+
 Alice -> common address -> Bob
 
-Layer 2 link = 
+Layer 2 link =
+
 Alice -> random address -> random address -> Bob
