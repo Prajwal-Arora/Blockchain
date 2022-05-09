@@ -1,11 +1,7 @@
 const { getTransactedAddresses } = require("./api");
 const { getUnique } = require("./removeDuplicates");
-const address1 = "0x0659C5BE03D9910D48594C5f329f8bBa7F30D1A2";
-const address2 = "0xe5851D9cF67ad6d40968b647614ac4560383240c";
-//const address1 = "0x5342D0aA687030E24956411913313068A367db9c";
-//const address2 = "0xbe505F23eAc423C620Aed1ACF7cfF41e00Bd5f82";
-//const address1 = "0x6B9b98f55e7C0c08d0A7304Aa1e41D197573B50B";
-//const address2 = "0x88bF0eB327cb26F2Cf8Ab5D6E42e43624CDD638B";
+const address1 = "";
+const address2 = "";
 
 getTransactedAddresses(address1)
 .then((arr) => {
