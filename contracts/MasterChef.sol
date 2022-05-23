@@ -98,13 +98,13 @@ contract MasterChef is Ownable {
     // Add a new lp to the pool. Can only be called by the owner.
     // XXX DO NOT add the same LP token more than once. Rewards will be messed up if you do.
     function add(uint256 _allocPoint, address _lpToken, uint16 _depositFeeBP, bool _withUpdate) public onlyOwner {
-        PoolInfo({
+        poolInfo.push(PoolInfo({
             lpToken: _lpToken,
             allocPoint: _allocPoint,
             lastRewardBlock: 0,
             accRADSPerShare: 0,
             depositFeeBP: _depositFeeBP
-        });
+        }));
     }
 
     // Update the given pool's RADS allocation point and deposit fee. Can only be called by the owner.
